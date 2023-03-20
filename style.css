@@ -1,0 +1,116 @@
+html {
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    max-width:1440px;
+    height: 900px;
+    background: url("./images/1674876170_top-fon-com-p-fon-dlya-prezentatsii-tsifrovie-tekhnologi-60.png");
+    
+}
+header{
+    display: flex;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    width: 1147px;
+    justify-content: space-between;
+    align-items: center;
+}
+.link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+#triangle_right {
+    width: 1219px;
+    height: 50px;
+    border-left: #fff;
+}
+.news {
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+}
+
+.right{
+ 
+}
+.news-1{
+    width: 450px;
+    height: 608px;
+    margin-top: 75px;
+}
+.news-1_title{
+    color: #F1A9A9;
+    font-size: 44px;
+    font-weight: bold;
+}
+.news-1_description{
+    color: #fff;
+    font-size: 44px;
+}
+.news-2{
+    width: 376px;
+    height: 542px;
+    margin-bottom: 150px;
+}
+.news_new_title{
+    color: #40EC99;
+    font-size: 32px;
+    font-weight: 400px;
+}
+.news_new_description{
+    color:#fff;
+    font-size: 32px;
+    font-weight: light;
+}
+.news-3{
+    width: 457px;
+    height: 578px;
+    margin-bottom: 125px;
+}
+.news-3_title {
+    text-align: center;
+    color:#fff;
+    font-size: 32px;
+}
+
+.contact-btn {
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background-color: #fff ;
+    color: #F1A9A9;
+  }
+  
+  .hidden-text {
+    position: absolute;
+    right: -200px;
+    top: 0;
+    background-color: #fff;
+    color: #40EC99;
+    border: 5px solid #40EC99;
+    padding: 12px 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    min-width: 200px;
+    transition: all 0.3s ease;
+    z-index: 100;
+  }
+  
+  .contact-btn:hover .hidden-text {
+    right: 100%;
+  }
